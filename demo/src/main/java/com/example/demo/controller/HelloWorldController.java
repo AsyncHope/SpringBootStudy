@@ -9,6 +9,6 @@ public class HelloWorldController {
 
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public String index() {
-        return "hello spring boot  ";
+        return "hello spring boot ";
     }
 }
