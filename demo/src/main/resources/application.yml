@@ -1,0 +1,16 @@
+spring:
+    devtools:
+        restart:
+            #热部署生效
+          enabled: true
+            #设置重启的目录
+            #additional-paths: src/main/java
+            #classpath目录下的WEB-INF文件夹内容修改不重启
+          exclude: WEB-INF/**
+        livereload:
+          #更改资源时触发浏览器刷新
+           enabled: true
+        remote: #远程支持
+          secret: mysecret
+    main:
+      banner-mode: "off"
