@@ -1,0 +1,15 @@
+一. 入门
+1. 环境搭建
+	java -version		java环境
+	mvn -v 				maven环境
+	gradle -v 			gradle环境
+2. 命令
+	mvn spring-boot:run  	启动项目, ctrl+c退出项目
+	mvn package 			创建一个可执行的jar,  在target目录下会看到jar
+							jar tvf target / xxx-0.0.1-SNAPSHOT.jar    --查看jar内部  	
+							java -jar target / xxx-0.0.1-SNAPSHOT.jar   --运行程序,ctrl+c退出
+							java -Xdebug -Xrunjdwp：server = y，transport = dt_socket，address = 8000，suspend = n \ -jar target / 	
+										myapplication-0.0.1-SNAPSHOT.jar  --启用了远程调试支持的打包应用程序
+	gradle bootRun			启动项目, ctrl+c退出项目
+二.使用spring boot
+1. 
