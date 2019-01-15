@@ -9,6 +9,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
  */
 public class DemoApplicationListener implements ApplicationListener<ContextRefreshedEvent> {
 
+
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         /**
